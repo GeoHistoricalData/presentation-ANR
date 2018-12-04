@@ -7,8 +7,6 @@
 \author{\vspace{2.4cm}\textbf{Julien Perret}}
 \institute{
   \tiny
-  Chargé de Recherche\\
-  ~\\
   Institut National de l'Information Géographique et Forestière (IGN),\\
   Laboratoire des Sciences et Technologies de l'Information Géographique (LaSTIG)\\
   ~\\
@@ -27,7 +25,15 @@
   colorlinks
 }
 
-\titlegraphic{\vspace{2.2cm}\centering\includegraphics[trim=1450 0 0 0,clip,width=0.75\textwidth]{couverture}}
+%\titlegraphic{\vspace{2.2cm}\centering\includegraphics[trim=1450 0 0 0,clip,width=0.75\textwidth]{couverture}}
+\titlegraphic{
+  \vspace{3.2cm}
+  \centering
+  \includegraphics[height=0.12\textwidth]{logo_ign}
+  \includegraphics[height=0.12\textwidth]{logo_ehess}
+  \includegraphics[height=0.12\textwidth]{logo_epita}
+  \includegraphics[height=0.12\textwidth]{logo_an}
+}
 
 %% \date{7 décembre 2016}
 %\titlegraphic{\vspace{6cm}\hfill\includegraphics[width=1cm]{logo_ign}}
@@ -49,9 +55,20 @@
 \begin{frame}
   \frametitle{Projet ANR SoDUCo (Social Dynamics in Urban Context)}
   \hypertarget{projet}{}
-  \begin{minipage}{0.645\textwidth}
-    %\textbf{}
-    \begin{itemize}
+  \begin{minipage}{\textwidth}
+    \begin{exampleblock}{Partenaires}
+      \vspace{1em}
+      \small
+      \begin{itemize}
+      \item \alert{IGN/LaSTIG/Strudel} (Julien Perret)~: Sciences de l'\textbf{information géographique}
+      \item \alert{EHESS/CRH/LaDéHiS} (Stéphane Baciocchi)~: \textbf{Histoire sociale}
+      \item \alert{EPITA/LRDE} (Thierry Géraud)~: \textbf{Informatique, traitement d'images}
+      \item \alert{Archives Nationales/Centre de topographie Parisienne} (Valentine Weiss)~: \textbf{Histoire}
+      \end{itemize}
+    \end{exampleblock}
+    
+    \begin{exampleblock}{Objectifs}
+      \begin{itemize}
     \item \alert{Approche globale} pour l'analyse des évolutions
     \item \alert{Analyse critique} des \alert{sources primaires}
       %  \item respect des sources primaires
@@ -64,26 +81,16 @@
       %% \end{itemize}
     \item \alert{Paris et sa banlieue} de 1789 à 1950
     \end{itemize}
+    \end{exampleblock}
   \end{minipage}
-  \begin{minipage}{0.345\textwidth}
-    \begin{flushright}
-      %      \alert{GeoHistoricalData}\\~\\
-      \includegraphics[width=0.25\textwidth]{logo_ign}
-      \includegraphics[width=0.25\textwidth]{logo_ehess}\\
-      \includegraphics[width=0.5\textwidth]{logo_epita}\\
-      %      \includegraphics[width=0.25\textwidth]{logo_cea}\\
-      %      \includegraphics[width=0.25\textwidth]{logo_cnrs}
-      %      \includegraphics[width=0.5\textwidth]{logo_ifsttar}
-      \includegraphics[width=0.5\textwidth]{logo_an}
-    \end{flushright}
-  \end{minipage}
-  %% \begin{figure}[htb]
-  %%   \centering
-  %%   \includegraphics[width=\textwidth]{paris_map_digitized}
-  %%   \caption{\footnotesize Carte de Cassini ($XVIII^e$ siècle) de Paris (feuille 1) et sa vectorisation~\cite{Perret2015}.}
-  %%   \label{fig:paris}
-  %% \end{figure}
-  %  logo_ehess
+  %% \begin{minipage}{0.345\textwidth}
+  %%   \begin{flushright}
+  %%     \includegraphics[width=0.25\textwidth]{logo_ign}
+  %%     \includegraphics[width=0.25\textwidth]{logo_ehess}\\
+  %%     \includegraphics[width=0.5\textwidth]{logo_epita}\\
+  %%     \includegraphics[width=0.5\textwidth]{logo_an}
+  %%   \end{flushright}
+  %% \end{minipage}
 \end{frame}
 
 
@@ -346,7 +353,7 @@
 
 \begin{frame}{Production Scientifique et recherche reproductible}
   \hypertarget{production}{}
-  \nocite{Dumenieu2013a,Dumenieu2013b,Perret2016,Cura2018,Dumenieu2018,Costes2015a}
+  \nocite{Dumenieu2013a,Dumenieu2013b,Perret2016,Cura2018,Dumenieu2018,Costes2015a,barthelemy2011spatial,barthelemy2013self,gribaudi2014paris,lazzara2011scribo,lazzara2014planting}
   \begin{minipage}{0.59\textwidth}
     \begin{exampleblock}{Production Scientifique}
       \scriptsize
